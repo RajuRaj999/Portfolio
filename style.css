@@ -1,0 +1,226 @@
+:root{
+    --text-color:#1a1c20 ;
+    --background-color:#eeeff1;
+    --link-color:#4a76ee;
+}
+
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'poppins',sans-serif;
+    background-color: var(--background-color);
+}
+a{
+    color:var(--link-color);
+    text-decoration: none;
+}
+
+/* NAVBAR SECTION */
+nav{
+    display: flex;
+    padding: 0 50px;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .left a{
+    color: var(--text-color);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+nav .right a{
+    color: var(--text-color);
+    margin: 0 10px;
+}
+
+nav .right a:last-child{
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+nav .right a span{
+    margin-left: 5px;
+}
+
+/* Section1: Home */
+.Home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin: 50px 0;
+    margin-bottom: 100px;
+    gap: 40px;
+    
+}
+.Home .text{
+    flex: 5;
+}
+
+.Home .text h2{
+    font-size: 30px;
+}
+
+.Home .text .links{
+    margin-top: 25px;
+}
+
+.Home .text .links a{
+ display: inline-block;
+ padding: 5px 10px;
+ border: 2px solid var(--link-color);
+ border-radius: 5px;
+ margin-right: 10px;
+ margin-bottom: 10px;
+}
+
+.Home .text .links a:hover{
+    border: 2px solid var(--text-color);
+    color: var(--text-color);
+}
+
+.Home .headshot{
+    flex: 2;
+    justify-content: right;
+    display: flex;
+}
+.Home .headshot img{
+    border-radius: 50%;
+    width: 350px;
+}
+
+/* Skills Section */
+
+.skills{
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.skills h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.skills .text{
+    text-align: center;
+    margin-bottom: 20px;
+} 
+
+.skills .cells{
+    display: flex;
+    justify-content: center;
+}
+
+.skills .cells .cell{
+    display: flex;
+    padding: 0 50px;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 25px;
+    border: 2px solid var(--text-color);
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.skills .cells .cell span{
+    margin-left: 5px;
+}
+
+/* Projects section */
+
+.Projects{
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.Projects h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.Projects .containers{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.Projects .containers .container{
+    border:2px solid var(--text-color);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+
+.Projects .containers .container h2:hover{
+    color: var(--text-color);
+}
+
+/* Contact Section  */
+.Contact{
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+.Contact h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.Contact .text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact form input,
+.Contact form textarea{
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid var(--text-color);
+    border-radius: 5px;
+}
+
+.Contact form input[type="submit"]{
+    background-color: var(--text-color);
+    color: var(--background-color);
+    cursor: pointer;
+}
+
+.Contact form input[type="submit"]:hover{
+    background-color: var(--link-color);
+    color: var(--text-color);
+}
+
+/* Footer Section */
+.footer{
+    background-color: var(--text-color);
+    color: var(--background-color);
+    text-align: center;
+    padding: 20px;
+}
+.footer p{
+    margin: 0;
+}
