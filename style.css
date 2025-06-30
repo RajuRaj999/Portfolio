@@ -181,38 +181,16 @@ nav .right a span{
     font-size: 35px;
     text-align: center;
 }
-
-.Contact .text{
+.Contact h1{
+    font-size: 35px;
     text-align: center;
-    margin-bottom: 20px;
+}
+.Contact h3{
+    font-size: 35px;
+    text-align: center;
 }
 
-.Contact form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.Contact form input,
-.Contact form textarea{
-    width: 100%;
-    max-width: 600px;
-    padding: 10px;
-    margin: 10px 0;
-    border: 2px solid var(--text-color);
-    border-radius: 5px;
-}
-
-.Contact form input[type="submit"]{
-    background-color: var(--text-color);
-    color: var(--background-color);
-    cursor: pointer;
-}
-
-.Contact form input[type="submit"]:hover{
-    background-color: var(--link-color);
-    color: var(--text-color);
-}
 
 /* Footer Section */
 .footer{
@@ -223,4 +201,86 @@ nav .right a span{
 }
 .footer p{
     margin: 0;
+}
+/* Add this at the END of your existing CSS file */
+
+/* Make skills section wrap on smaller screens */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .right a span {
+        display: none; /* show only icons on small screen */
+    }
+
+    .Home {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .Home .headshot img {
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    .skills .cells {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills .cells .cell {
+        width: 80%;
+        justify-content: center;
+    }
+
+    .Projects .containers {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Projects .containers .container {
+        width: 90%;
+    }
+
+    .Contact h1,
+    .Contact h3 {
+        font-size: 25px;
+    }
+
+    nav .left a {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .skills h2,
+    .Projects h2,
+    .Contact h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Home .text h2 {
+        font-size: 24px;
+    }
+
+    .skills .cells .cell {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    nav .right a {
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    .Contact h1,
+    .Contact h3 {
+        font-size: 20px;
+    }
 }
