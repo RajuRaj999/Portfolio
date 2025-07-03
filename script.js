@@ -5,3 +5,10 @@
     navMenu.classList.toggle('show');
   });
 
+
+  const navLinks = navMenu.querySelectorAll('a');
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      navMenu.classList.remove('show');
+    });
+  });
