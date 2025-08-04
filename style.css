@@ -849,6 +849,12 @@ hr {
  
  
  }
+ .about-section,
+.skills-section,
+.services-section,
+.contact-section {
+  scroll-margin-top: 80px; 
+}
  
  .about-section{
   padding: 40px 20px;
