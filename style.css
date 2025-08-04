@@ -928,7 +928,7 @@ hr {
 
   }
  .hero{
-  padding: 40px 20px;
+  margin-left: -30px;
   flex-direction: column;
  
  
