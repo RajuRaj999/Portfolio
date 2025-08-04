@@ -221,7 +221,7 @@ p {
 .section-title p {
   font-size: 16px;
   color: #666;
- margin-left: 380px;
+margin-left: 400px;
  line-height: 1.5;
 }
 
@@ -835,44 +835,43 @@ hr {
 
 
 /* Responsive Navbar */
- @media (min-width:480px)and ( max-width:768px) {
+ @media( max-width:768px) {
   body{
    width: 100%;
    margin-left: 80px;
   }
  .hero{
-  width: 200%;
   padding: 40px 20px;
  
  
  }
  
  .about-section{
-  width: 200%;
   padding: 40px 20px;
+ }
+ .section-title p {
+  margin-left: 140px;
  }
 
  .skills-section{
-  width: 200%;
   padding: 40px 20px;
  }
  .services-section{
-  width: 200%;
   padding: 40px 20px;
 
  }
  .projects-section{
-  width: 200%;
   padding: 40px 20px;
  
  }
  .contact-section{
-  width: 200%;
   padding: 40px 20px;
 
  }
+ .sub-heading {
+  margin-left: 150px;
+ }
  .footer{
-  width: 200%;
   padding: 40px 20px;
  }
   nav {
