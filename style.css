@@ -850,32 +850,30 @@ hr {
  .about-section{
   width: 200%;
   padding: 40px 20px;
-  flex-direction: column;
  }
+
  .skills-section{
   width: 200%;
   padding: 40px 20px;
-  flex-direction: column;
  }
  .services-section{
   width: 200%;
   padding: 40px 20px;
-  flex-direction: column;
+
  }
  .projects-section{
   width: 200%;
   padding: 40px 20px;
-  flex-direction: column;
+ 
  }
  .contact-section{
   width: 200%;
   padding: 40px 20px;
-  flex-direction: column;
+
  }
  .footer{
   width: 200%;
   padding: 40px 20px;
-  flex-direction: column;
  }
   nav {
     position: absolute;
@@ -914,6 +912,7 @@ hr {
 
   .menu-toggle {
     display: block;
+   
   }
  
 
