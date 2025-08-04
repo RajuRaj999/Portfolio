@@ -838,6 +838,7 @@ hr {
  @media( max-width:768px) {
   body{
    width: 100%;
+
   }
  .hero{
   padding: 40px 20px;
