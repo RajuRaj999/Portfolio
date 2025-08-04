@@ -831,8 +831,12 @@ hr {
   font-size: 16px;                 
   margin-top: 20px;
 }
-
-
+.about-section,
+.skills-section,
+.services-section,
+.contact-section {
+  scroll-margin-top: 40px; 
+}
 
 /* Responsive Navbar */
  @media( max-width:768px) {
