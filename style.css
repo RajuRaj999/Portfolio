@@ -941,9 +941,10 @@ hr {
   margin-top: 50px;
  }
  .buttons{
-  margin-left: 30px;
+  margin-left: 10px;
   flex-direction: column;
-  padding-left: 30px;
+  padding-left: 50px;
+  
  
  }
 
