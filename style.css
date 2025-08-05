@@ -933,9 +933,20 @@ hr {
  
  
  }
+ .hero p{
+  font-size: 14px;
+  width: 270px;
+ }
  .hero-image{
   margin-top: 50px;
  }
+ .buttons{
+  margin-left: 30px;
+  flex-direction: column;
+  padding-left: 30px;
+ 
+ }
+
 
  .section-title p {
   margin-left: 30px;
@@ -945,8 +956,13 @@ hr {
   margin-left: 10px;
   margin-right: 20px;
  }
+ .linkedin{
+  width: 60px;
+
+ }
  .footer-bottom {
   margin-left: 20px;
   margin-right: 30px;
  }
+
 }
